@@ -1,51 +1,51 @@
-# Regress
-Get up and running with regress
+# regression
+Get up and running with regression
 
 ------------
  Install using pip
 
-`pip install regress`
+`pip install regression`
 
  Or, if you have using pip3
  
-`pip3 install regress`
+`pip3 install regression`
 
 
 ------------
 ### Usage 
 
-Linear regression model
+Linear regressionion model
 
-`from regress.linear_model import Linear`
+`from regression.linear_model import Linear`
 `linearmodel = Linear()`
 
-Polynomial regression model
+Polynomial regressionion model
 
-`from regress.polynomial_model import Polynomial`
+`from regression.polynomial_model import Polynomial`
 `linearmodel = Polynomial()`
 
 Data preprocessing
 
-`from regress.preprocess import preprocess`
+`from regression.preprocess import preprocess`
 `x = preprocess([1, 2, 3])`
 
 Model statistics
 
-`from regress.statistics import score, intercept, coef`
+`from regression.statistics import score, intercept, coef`
 `print(score(linearmodel, x, y))`
 `print(intercept(linearmodel)`
 `print(coef(linearmodel))`
 
 Transform
 
-`from regress.transform import Transform`
+`from regression.transform import Transform`
 `transformer = Transform()`
 `tansformer.initTransformer(2, false)`
 `x_ = transformer.transform(x)`
 
 Predict
 
-`from regress.prediction import Predict`
+`from regression.prediction import Predict`
 `print(Predict(linearmodel, val))`
  
 

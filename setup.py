@@ -1,10 +1,10 @@
 from distutils.core import setup
 setup(
-  name = 'regress',         # How you named your package folder (MyLib)
-  packages = ['regress'],   # Chose the same as "name"
+  name = 'regression',         # How you named your package folder (MyLib)
+  packages = ['regression'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'regression made easy with regress !',   # Give a short description about your library
+  description = 'regression made easy with regression !',   # Give a short description about your library
   long_description=str(open('README.md', 'r').read()),
   long_description_content_type='text/markdown',
   author = 'rushan7750',                   # Type in your name
