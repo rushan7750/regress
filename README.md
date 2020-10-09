@@ -1,51 +1,51 @@
-# regression
-Get up and running with regression
+# regrex
+Get up and running with regrex
 
 ------------
  Install using pip
 
-`pip install regression`
+`pip install regrex`
 
  Or, if you have using pip3
  
-`pip3 install regression`
+`pip3 install regrex`
 
 
 ------------
 ### Usage 
 
-Linear regressionion model
+Linear regrex model
 
-`from regression.linear_model import Linear`
+`from regrex.linear_model import Linear`
 `linearmodel = Linear()`
 
-Polynomial regressionion model
+Polynomial regrex model
 
-`from regression.polynomial_model import Polynomial`
+`from regrex.polynomial_model import Polynomial`
 `linearmodel = Polynomial()`
 
 Data preprocessing
 
-`from regression.preprocess import preprocess`
+`from regrex.preprocess import preprocess`
 `x = preprocess([1, 2, 3])`
 
 Model statistics
 
-`from regression.statistics import score, intercept, coef`
+`from regrex.statistics import score, intercept, coef`
 `print(score(linearmodel, x, y))`
 `print(intercept(linearmodel)`
 `print(coef(linearmodel))`
 
 Transform
 
-`from regression.transform import Transform`
+`from regrex.transform import Transform`
 `transformer = Transform()`
 `tansformer.initTransformer(2, false)`
 `x_ = transformer.transform(x)`
 
 Predict
 
-`from regression.prediction import Predict`
+`from regrex.prediction import Predict`
 `print(Predict(linearmodel, val))`
  
 

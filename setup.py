@@ -1,17 +1,17 @@
 from distutils.core import setup
 setup(
-  name = 'regression',         # How you named your package folder (MyLib)
-  packages = ['regression'],   # Chose the same as "name"
+  name = 'regrex',         # How you named your package folder (MyLib)
+  packages = ['regrex'],   # Chose the same as "name"
   version = '0.1',      # Start with a small number and increase it with every change you make
   license='MIT',        # Chose a license from here: https://help.github.com/articles/licensing-a-repository
-  description = 'regression made easy with regression !',   # Give a short description about your library
+  description = 'regrex made easy with regrex !',   # Give a short description about your library
   long_description=str(open('README.md', 'r').read()),
   long_description_content_type='text/markdown',
   author = 'rushan7750',                   # Type in your name
   author_email = 'shanrsjmax@gmail.com',      # Type in your E-Mail
   url = 'https://github.com/rushan7750/regress',   # Provide either the link to your github or to your website
   download_url = 'https://github.com/rushan7750/regress/archive/0.1.tar.gz',    # I explain this later on
-  keywords = ['regress', 'simple', 'regression'],   # Keywords that define your package best
+  keywords = ['regress', 'simple', 'regrex'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'numpy',
           'skikit-learn',
