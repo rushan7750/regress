@@ -4,7 +4,7 @@ from sklearn.preprocessing import PolynomialFeatures
 
 class Polynomial():
     def __init__(self):
-        super().__init__(self)
+        super().__init__()
     def initModel(self):
         self.model = LinearRegression(fit_intercept=False)
     def fit(self, x, y):
